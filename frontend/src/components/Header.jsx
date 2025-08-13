@@ -7,7 +7,7 @@ const Header = () => {
         {/* Move background image first and fix z-index */}
         <img src={assets.gradientBackground} alt="" className='absolute -top-50 -z-10 pointer-events-none'/>
         
-        <div className='text-center -mt-20 mb-8 relative z-10'>
+        <div className='text-center mt-5 mb-8 relative z-10'>
 
             <div className='inline-flex items-center justify-center gap-4 px-6 py-1.5 mb-4 border border-primary/40 bg-primary/10 rounded-full text-sm text-primary'>
                 <p>New: AI feature integrated</p>
