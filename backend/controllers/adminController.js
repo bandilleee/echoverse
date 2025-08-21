@@ -1,10 +1,10 @@
-import jwt from "jsonwebtoken";
+import jwt from 'jsonwebtoken';
 
 export const adminLogin = async (req, res)=>{
     try{
-        const {email, passoword} = req.body;
+        const {email, password} = req.body;
 
-        if(email !== process.env.ADMIN_EMAIL || passoword !== process.env.ADMIN_PASSWORD){
+        if(email !== process.env.ADMIN_EMAIL || password !== process.env.ADMIN_PASSWORD){
             return res.json({success: false, message: "Invalid Credentials"})
         }
 
