@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Login from "./components/admin/login.jsx"
+import Login from "./components/Login.jsx"
 
 const Login = () => {
 
